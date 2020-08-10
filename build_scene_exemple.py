@@ -18,12 +18,14 @@ algerbra_node = cmds.createNode("dvAlgebraPlug")
 locators = {
         "shoulder_target": [0.0, 1.0, 0.0],
         "elbow_target": [1.0, 1.0, -1.0],
-        "wrist_target " : [3.0, 1.0, -1.0]
+        "wrist_target" : [3.0, 1.0, -1.0]
     }
 
 locator_nodes = []
 for loc, pos in locators.items():
-    locator_nodes.append(cmds.spaceLocator(n=loc, p=pos)[0])
+    current_loc = cmds.spaceLocator(n=loc)[0]
+    cmds.xform(current_loc, ws=True, t=pos)
+    locator_nodes.append(current_loc)
 
 for locator_node in locator_nodes:
     base_name = locator_node.split("_")[0]
