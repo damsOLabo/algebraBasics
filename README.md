@@ -1,6 +1,6 @@
 | Plug-ins | maya |
 |:--------:|:--------:|
-|Mode edit|True|
+|Mode lock|False|
 
 # Algebra Basics
 ![scene|medium](./docs/images/scene.png)
