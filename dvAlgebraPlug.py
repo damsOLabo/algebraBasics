@@ -1,7 +1,7 @@
 """
 Ceci est un exercice pour presenter l'utilisation de \
     l'alebre lineaire dans un plug-ins python \
-        vous pouvez a partir de ce plug-in créer une chaine de 3 joints \
+        vous pouvez a partir de ce plug-in creer une chaine de 3 joints \
             ces joints seront positionner en fonction de la position de \
                 3 locators en input du node
 """
