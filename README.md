@@ -12,9 +12,6 @@ The goal of this node is to work the basics of the algebra.
 This node compute the matrices of 3 outputs parented from 3 world position in input.
 You can move interractively the inputs, the node compute the output. 
 
-## Test
-![scene_test](./docs/images/scene_test.gif)
-
 
 ## Attributs
 
